@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/g/code/base64/./memory.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+
+/cygdrive/g/code/base64/base_64.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+./memory.h
+/cygdrive/g/code/base64/./memory.h
+
+/cygdrive/g/code/base64/main.c
+base_64.h
+/cygdrive/g/code/base64/base_64.h
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/base64.dir/main.c.o CMakeFiles/base64.dir/base_64.c.o CMakeFiles/base64.dir/memory.c.o  -o base64.exe -Wl,--out-implib,libbase64.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
